@@ -209,7 +209,7 @@ def prep(in_csv, type_of_img="ratio"):
     ants_seg = ants_seg[-1]
     return in_csv, lesion_file, ratio_file, ants_seg
 
-def run_edits(mse, author="ssacco", type_of_img = "ratio", dist_radius = 5):
+def run_edits(mse, author="gkirkish", "ssacco", type_of_img = "ratio", dist_radius = 5):
 
     coord_system1 = "/data/henry7/PBR/subjects/{}/mindcontrol/*/lst/rois/*-{}.csv"
     coord_system2 = "/data/henry7/PBR/subjects/{}/mindcontrol/*/lst/rois/*-{}_origAff.csv"
